@@ -31,9 +31,6 @@ if not invalid_dates.empty:
 df['Genre'] = ''
 df['Release_Year'] = ''
 df['Country'] = ''
-df['Vote_Average'] = ''
-df['Vote_Count'] = ''
-df['Popularity'] = ''
 df['Runtime'] = ''
 
    
@@ -60,9 +57,6 @@ for index, row in df.iterrows():
             df.at[index, 'Genre'] = ', '.join([g['name'] for g in details.get('genres', [])])
             df.at[index, 'Release_Year'] = details.get('release_date', '')[:4]
             df.at[index, 'Country'] = ', '.join([c['iso_3166_1'] for c in details.get('production_countries', [])])
-            df.at[index, 'Vote_Average'] = details.get('vote_average')
-            df.at[index, 'Vote_Count'] = details.get('vote_count')
-            df.at[index, 'Popularity'] = details.get('popularity')
             df.at[index, 'Runtime'] = details.get('runtime')
             found = True
         else:
