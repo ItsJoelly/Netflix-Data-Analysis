@@ -22,7 +22,7 @@ Through this analysis, I gain a clearer picture of my own habits and how recomme
 - My favorite genres are **Drama, Comedy, and Action**, dominating both watched and recommended lists  
 - I predominantly watch **recent releases (post-2020)**, showing a preference for fresh content  
 - Netflix recommendations **moderately align** with my interests but underrepresent genres like Foreign and Indie films  
-- The majority (60%) of recommended movies are from **India**, matching my strong interest in Indian cinema  
+- The majority of recommended movies are from **India**, matching my strong interest in Indian cinema  
 
 ---
 
@@ -30,8 +30,8 @@ Through this analysis, I gain a clearer picture of my own habits and how recomme
 
 - **Data Analysis & Visualization:** Python (Pandas, Matplotlib, Seaborn)  
 - **Notebook:** Jupyter Notebook  
-- **Environment:** Python 3.11 (virtual environment)  
-- **Export:** HTML/PDF reports via nbconvert  
+- **Environment:** Python 3.13 (virtual environment)  
+- **Export:** PDF reports via nbconvert  
 
 ---
 
@@ -40,23 +40,19 @@ Through this analysis, I gain a clearer picture of my own habits and how recomme
 - Cleaned and structured watch history data  
 - Tables summarizing genre, region, and release year distributions  
 - Comparison audit of Netflix recommendations vs actual watch history  
-- Visual charts highlighting key trends and gaps  
+- Visual charts highlighting key trends and gaps
 
+
+Check out my finding on netflix_recommendation_audit.pdf
 ---
 
-## 🚀 Next Steps
-
-- Perform a detailed recommendation audit with screenshots or API data  
-- Enhance data visualizations with interactive charts  
-- Explore user behavior over time and seasonal trends  
-- Share results via GitHub and portfolio for further feedback  
-
----
-
-## 📂 How to Run
+## 📂 How to Run It Yourself
 
 1. Clone the repo  
 2. Activate your Python virtual environment  
 3. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+4. Download your watch history from Netflix and save as relevant file.
+5. Get Your API Key from TMDB Official website.
+6. Run the Code and Enjoy
